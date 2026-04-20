@@ -1,0 +1,16 @@
+{
+  "name": "pdf-crawler",
+  "version": "1.0.0",
+  "description": "Crawl and download PDF files from URLs in CSV",
+  "main": "crawler.js",
+  "type": "module",
+  "scripts": {
+    "start": "node crawler.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.1.0"
+  }
+}
